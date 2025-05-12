@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aula</title>
+  </head>
+  <body>
+    <header>
+      <h1>Sobre você</h1>
+    </header>
+
+    <div class="name">
+      <div class="division">
+        <h2>Escreva seu nome</h2>
+        <input type="text" id="nome">
+      </div>
+      
+      <div class="division">
+        <h2>Qual sua idade</h2>
+        <input type="number" id="age">
+      </div>
+      
+      <div class="division">
+        <label for="genero"> <h2>Qual seu gênero</h2> 
+          <select id="genero">
+            <option value="Homi" id="male">Masculino</option>
+            <option value="Muie" id="female">Feminino</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    
+    <input type="button" value="Enviar" id="button">
+
+    <div id="info"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
