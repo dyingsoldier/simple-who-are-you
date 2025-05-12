@@ -10,7 +10,7 @@ inputButton.addEventListener("click", function () {
   let option = Inputoption.value
 
   let info = document.getElementById("info")
-  info.innerHTML = `<h3> Olá ${name}, é um prazer recebe-lo você tem ${age} anos correto? e se identifica como ${option}.</h3>`
+  info.innerHTML = `<h3> Olá ${name}, é um prazer receber você por aqui, tens ${age} anos correto? e se identifica como ${option}.</h3>`
   Inputname.value = ""
   Inputage.value = ""
 })
